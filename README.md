@@ -119,6 +119,10 @@ Covers network detection rules, policy mapping, config loading and validation, a
 - Does not touch Windows system DNS.
 - HKLM policies (for example corporate GPO) override HKCU. `-Apply` warns when it sees one.
 
+## Design notes
+
+Product requirements, technical research and test results (Indonesian): [docs/PRD.md](docs/PRD.md).
+
 ## License
 
 MIT
