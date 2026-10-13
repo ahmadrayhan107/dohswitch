@@ -1,0 +1,21 @@
+{
+  "_comment": "Copy this file to config.json and fill office.match. Run .\\DoHSwitch.ps1 -Status while on the office network to see the values to use. A network is treated as office when ANY rule matches. Leave a list empty to ignore that rule.",
+  "scope": "User",
+  "office": {
+    "mode": "automatic",
+    "templates": "",
+    "match": {
+      "domainJoined": false,
+      "dnsServers": [],
+      "dnsSuffixes": [],
+      "gateways": [],
+      "ssids": [],
+      "profileNames": []
+    }
+  },
+  "outside": {
+    "mode": "secure",
+    "templates": "https://dns.google/dns-query{?dns}"
+  },
+  "logMaxBytes": 1048576
+}

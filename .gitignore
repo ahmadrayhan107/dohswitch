@@ -1,0 +1,4 @@
+# Private per-machine files (contain your office network identifiers)
+config.json
+state.json
+logs/
